@@ -18,6 +18,15 @@ body {
     font-family: sans-serif;
     padding: 25px;
 }
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 40px 20px;
+}
+
 /**** Animation boutons flous ****/
 
 .buttons {
@@ -33,6 +42,7 @@ body {
     padding: 30px;
     text-align: center;
     text-transform: uppercase;
+    font-weight: bold;
     background-color: #f2f2f2;
     border: 1px solid #eeeeee;
     box-shadow: 0 0 25px 0 rgba(0,0,0,0.25);
@@ -56,6 +66,7 @@ body {
 .txt {
     margin: 30px 20px;
     font-size: 50px;
+    font-weight: bold;
     text-align: center;
     cursor: pointer;
 }
