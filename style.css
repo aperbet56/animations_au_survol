@@ -1,0 +1,52 @@
+/**** Reset ****/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/**** Style général de la page ****/
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 25px;
+}
+/**** Animation boutons flous ****/
+
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 200px;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+    border: 1px solid #eeeeee;
+    box-shadow: 0 0 25px 0 rgba(0,0,0,0.25);
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 30px;
+    transition: all 0.3s ease-out;
+}
+
+.blurred {
+    filter: blur(3px);
+    opacity: 0.5;
+    transform: scale(0.98);
+    box-shadow: none;
+}
+
+/**** Fin de l'animation boutons flous *****/
