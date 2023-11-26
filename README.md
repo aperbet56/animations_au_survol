@@ -4,10 +4,10 @@
 
 Création de plusieurs animations qui se déclanchent au survol de la souris :
 
-- 1. Animation bouton flou
-- 2. Animation texte qui brille
-- 3. Animation effet décollage
-- 4. Animation rotation
+- 1.Animation bouton flou
+- 2.Animation texte qui brille
+- 3.Animation effet décollage
+- 4.Animation rotation
 
 ## Démonstration
 
