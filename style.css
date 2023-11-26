@@ -138,3 +138,88 @@ h2 {
 }
 
 /**** Fin de l'animation effet décollage ****/
+
+/**** Animation : rotation de la carte ****/
+
+.rotation__card {
+    width: 280px;
+    height: 450px;
+    background-color: #484848;
+    cursor: pointer;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgb(255, 238, 2);
+    transition: all 0.4s linear;
+}
+
+.rotation__card:hover {
+    background-color: #ffd700; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+.head__photo {
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #ffd700;
+    transition: border-bottom 0.4s linear;
+}
+
+.rotation__card:hover .head__photo {
+    border-bottom: 2px solid #484848;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ffd700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.4s linear;
+}
+
+.rotation__card:hover .circle {
+    background-color: #484848;
+}
+
+.circle svg {
+    width: 80px;
+    fill: #484848;
+    transition: all 0.4s linear;
+}
+
+.rotation__card:hover .circle svg {
+    fill: #ffd700;
+    transform: rotateY(360deg);
+}
+
+.title {
+    margin-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f1f1f1;
+    font-size: 20px;
+    font-weight: 600;
+    transition: color 0.4s linear;
+}
+
+.rotation__card:hover .title {
+    color: #484848;
+}
+
+.texte {
+    color: #f1f1f1;
+    font-size: 18px;
+    line-height: 1.4;
+    padding: 20px;
+    text-align: justify;
+    transition: color 0.4s linear;
+}
+
+.rotation__card:hover .texte {
+    color: #484848;
+}
+
+/**** Fin de l'animation : rotation de la carte ****/
