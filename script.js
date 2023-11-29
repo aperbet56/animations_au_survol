@@ -25,12 +25,12 @@ btn2.addEventListener("mouseleave", () => {
 // Récupération de la div ayant la classe text
 const txt = document.querySelector(".txt");
 
-// Ecoute de l'événement mouseenter sur la div
+// Ecoute de l'événement mouseenter sur la la balise p
 txt.addEventListener("mouseenter", () => {
   txt.classList.add("animation");
 });
 
-// Ecoute de l'événement mouseleave sur la div
+// Ecoute de l'événement mouseleave sur la balise p
 txt.addEventListener("mouseleave", () => {
   txt.classList.remove("animation");
 });
